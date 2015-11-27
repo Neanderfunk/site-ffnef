@@ -26,7 +26,7 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged
 
-DEFAULT_GLUON_RELEASE := 2015.1.2-beta-$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := v1.0.X-exp-$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
