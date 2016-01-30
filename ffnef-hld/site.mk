@@ -1,7 +1,6 @@
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-15 \
-	gluon-alfred \
-	gluon-announced \
+	gluon-respondd \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
@@ -20,15 +19,12 @@ GLUON_SITE_PACKAGES := \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
+	gluon-weeklyreboot \
+	gluon-wificheck \
+	gluon-ssid-changer \
 	haveged \
 	iptables \
-	iwinfo \
-	ffho-ebtables-net-rules \
-	ffho-wifi-blackout-workaround \
-	ffho-autoupdater-wifi-fallback \
-	gluon-ebtables-filter-roguenets  	
-
-	
+	iwinfo
 
 DEFAULT_GLUON_RELEASE := $(shell date '+%Y%m%d%H%M')-exp
 
@@ -36,4 +32,4 @@ DEFAULT_GLUON_RELEASE := $(shell date '+%Y%m%d%H%M')-exp
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
-GLUON_LANGS ?= de en fr
+GLUON_LANGS ?= de en 
