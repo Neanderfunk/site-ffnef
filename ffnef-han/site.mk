@@ -30,7 +30,7 @@ GLUON_SITE_PACKAGES := \
 
 	
 
-DEFAULT_GLUON_RELEASE := $(shell date '+%Y%m%d%H%M')-exp
+DEFAULT_GLUON_RELEASE := $(shell date '+%Y%m%d%H%M')-stable
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
