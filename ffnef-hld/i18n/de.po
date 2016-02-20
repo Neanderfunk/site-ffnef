@@ -24,6 +24,10 @@ msgstr ""
 "Identifikation, sondern nur der Kontaktaufnahme bei Problemen. Ein anonymes "
 "E-Mail Postfach kann man zum Beispiel bei <a href=\"https://posteo.de/\">posteo.de</a> erwerben.</p>"
 
+msgid "gluon-config-mode:pubkey"
+msgstr ""
+"&nbsp;"
+
 msgid "gluon-config-mode:reboot"
 msgstr ""
 "<p>Dein Knoten startet gerade neu und wird anschließend versuchen, "
