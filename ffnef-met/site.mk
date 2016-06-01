@@ -32,7 +32,7 @@ GLUON_SITE_PACKAGES := \
 
 	
 
-DEFAULT_GLUON_RELEASE := $(shell '+v2016.1.4-%m%d')
+DEFAULT_GLUON_RELEASE := $(shell '+v2016.1.5-%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
