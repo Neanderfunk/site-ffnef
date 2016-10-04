@@ -25,14 +25,11 @@ GLUON_SITE_PACKAGES := \
 	haveged \
 	iptables \
 	iwinfo \
-	ffho-ebtables-net-rules \
-	ffho-wifi-blackout-workaround \
-	ffho-autoupdater-wifi-fallback \
 	gluon-ebtables-filter-roguenets  	
 
 	
 
-DEFAULT_GLUON_RELEASE := $(shell date '+v2016.1.5-%m%d')
+DEFAULT_GLUON_RELEASE := $(shell date '+v2016.2.1-%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
